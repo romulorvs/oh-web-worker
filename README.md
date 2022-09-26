@@ -40,7 +40,7 @@ calculate(2, 2).then(res => console.log("result: " + res)); // result: 4
 // Two workers got created, and they've run concurrently.
 ```
 ---
-### **Important**: The function passed to **worker()** or **uniqueWorker()** must be a **Pure Function** *(it can only use the params that are passed to it. It cannot use any external variable - not even global or system variables, like **window**)*.
+#### **Important**: The function passed to **worker()** or **uniqueWorker()** must be a **Pure Function** *(it can only use the params that are passed to it. It cannot use any external variable, not even global or system variables)*.
 ---
 ## **Handling Errors**
 You can get the errors of the workers in the second parameter of the callback function (or just use **"catch"**, when working with Promises).
