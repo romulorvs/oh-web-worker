@@ -1,0 +1,27 @@
+{
+  "name": "light-workers",
+  "version": "0.1.0",
+  "description": "A friendly and lightweight method to handle Web Workers, using Promises and Callback Functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romulorvs/light-workers.git"
+  },
+  "keywords": [
+    "web worker",
+    "web workers",
+    "worker",
+    "workers",
+    "promises worker",
+    "promises workers"
+  ],
+  "author": "RomuloVS",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/romulorvs/light-workers"
+  },
+  "homepage": "https://github.com/romulorvs/light-workers"
+}
