@@ -28,19 +28,19 @@ var blob = new Blob([`
 
 function setProperties(worker, _worker) {
   _worker.terminate = function (...args) {
-    worker.terminate(...args);
+    return worker.terminate(...args);
   };
 
   _worker.addEventListener = function (...args) {
-    worker.addEventListener(...args);
+    return worker.addEventListener(...args);
   };
 
   _worker.removeEventListener = function (...args) {
-    worker.removeEventListener(...args);
+    return worker.removeEventListener(...args);
   };
 
   _worker.dispatchEvent = function (...args) {
-    worker.dispatchEvent(...args);
+    return worker.dispatchEvent(...args);
   };
 }
 

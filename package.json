@@ -1,5 +1,5 @@
 {
-  "name": "light-workers",
+  "name": "oh-web-worker",
   "version": "0.1.0",
   "description": "A friendly and lightweight method to handle Web Workers, using Promises and Callback Functions.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romulorvs/light-workers.git"
+    "url": "git+https://github.com/romulorvs/oh-web-worker.git"
   },
   "keywords": [
     "web worker",
@@ -21,7 +21,7 @@
   "author": "RomuloVS",
   "license": "MIT License",
   "bugs": {
-    "url": "https://github.com/romulorvs/light-workers"
+    "url": "https://github.com/romulorvs/oh-web-worker"
   },
-  "homepage": "https://github.com/romulorvs/light-workers"
+  "homepage": "https://github.com/romulorvs/oh-web-worker"
 }
